@@ -1,0 +1,27 @@
+{
+  "name": "Forest Admin Node.js agent v2 example",
+  "env": {
+    "FOREST_ENV_SECRET": {
+      "description": "🔴 Secret environment key used to connect to Forest admin.",
+      "required": true
+    },
+    "DATABASE_URL": {
+      "description": "🔴 Connection string to the database.",
+      "required": true
+    },
+    "FOREST_AGENT_URL": {
+      "required": true,
+      "description": "🔴 URL of the agent. If your are using a free heroku instance, just replace [your-app-name] with the name of your app. Once your app is released, you'll need to copy this URL back in the onboarding process.",
+      "value": "https://[your-app-name].herokuapp.com"
+    },
+    "NODE_ENV": {
+      "required": false,
+      "description": "🟢 The type of environment you want to create. Possible values are anything outside of 'production'.",
+      "value": "heroku-hosted"
+    },
+    "FOREST_AUTH_SECRET": {
+      "description": "🟢 Authentication key used to login.",
+      "required": true
+    }
+  }
+}
