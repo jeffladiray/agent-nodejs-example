@@ -9,10 +9,11 @@
     "start": "node index.js"
   },
   "dependencies": {
-    "@forestadmin/agent": "^1.0.0-beta.43",
-    "@forestadmin/datasource-sql": "^1.0.0-beta.40",
+    "@forestadmin/agent": "^1.0.0-beta.46",
+    "@forestadmin/datasource-sql": "^1.0.0-beta.42",
     "dotenv": "^16.0.1",
     "pg": "^8.7.3",
-    "tedious": "^15.0.1"
+    "tedious": "^15.0.1",
+    "mariadb": "^3.0.1"
   }
 }
