@@ -12,8 +12,6 @@
     "@forestadmin/agent": "^1.0.0",
     "@forestadmin/datasource-sql": "^1.0.0",
     "dotenv": "^16.0.1",
-    "pg": "^8.7.3",
-    "tedious": "^15.0.1",
-    "mariadb": "^3.0.1"
+    "pg": "^8.7.3"
   }
 }
